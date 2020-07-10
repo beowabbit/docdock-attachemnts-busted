@@ -15,3 +15,26 @@ To reproduce, after cloning this repo, cd into it and run
 
     git submodule update --init
 
+Run "hugo server" with an 0.73 version of Hugo (which you can get
+from https://github.com/gohugoio/hugo/releases/tag/v0.73.0),
+and you'll see that each page has a broken attachments
+section.  Run it with an 0.48 version (which you can get from
+https://github.com/gohugoio/hugo/releases/tag/v0.48) and you'll see that
+attachments render normally.  For convenience I've included Linux 64-bit
+Hugo binaries for 0.73 and 0.48 in the repo here, so you can just do
+
+    ./hugo-v0.48 server
+
+and
+
+    ./hugo-v0.73.0 server
+
+if you're on Linux 64-bit and you're willing to run random binaries some
+dude on the Interwebs sends you.
+
+(I created a demo with a regular leaf pages content/animals/insects.md
+and content/animals/mammals.md, with leaf bundle content/plants/index.md,
+and with branch bundles content/animals/_index.md and content/_index.md,
+because some closed issues seemed to suggest they were handled
+differently.)
+
