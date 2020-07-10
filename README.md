@@ -32,6 +32,12 @@ and
 if you're on Linux 64-bit and you're willing to run random binaries some
 dude on the Interwebs sends you.
 
+(0.48 is arbitrary and just happens to be the version that we were trying
+to upgrade from when we discovered this problem.  I presume there are later
+versions it works with.  The documentation seems to be inconsistent about
+whether I need a closing slash before the `}}` of the `attachments`
+shorcode, but omitting it doesn't seem to make a difference.)
+
 (I created a demo with a regular leaf pages content/animals/insects.md
 and content/animals/mammals.md, with leaf bundle content/plants/index.md,
 and with branch bundles content/animals/_index.md and content/_index.md,
