@@ -38,9 +38,9 @@ versions it works with.  The documentation seems to be inconsistent about
 whether I need a closing slash before the `}}` of the `attachments`
 shorcode, but omitting it doesn't seem to make a difference.)
 
-(I created a demo with a regular leaf pages content/animals/insects.md
-and content/animals/mammals.md, with leaf bundle content/plants/index.md,
-and with branch bundles content/animals/_index.md and content/_index.md,
+(I created a demo with a regular leaf pages `content/animals/insects.md`
+and `content/animals/mammals.md`, with leaf bundle `content/plants/index.md`,
+and with branch bundles `content/animals/_index.md` and `content/_index.md`,
 because some closed issues seemed to suggest they were handled
-differently.)
+differently.  All work fine under 0.48.)
 
