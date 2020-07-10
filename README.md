@@ -1,8 +1,9 @@
 # docdock-attachments-busted
 
-This repository demonstrates that the `attachments` shortcode in DocDock
-is busted under Hugo 0.73, which defaults to the "Goldmark" markdown
-library while it works under 0.48 which defaulted to "Black Friday".
+This repository demonstrates that the `attachments`, `children`,
+and `expand` shortcodes in DocDock are busted under Hugo 0.73, which
+defaults to the "Goldmark" markdown library while they work under 0.48
+which defaulted to "Black Friday".
 
 Under 0.48, attachments render as documented, with an "Attachments"
 header with paperclip icon and a list of links to attachments in the
