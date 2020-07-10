@@ -1,5 +1,5 @@
 ---
-title: "Animals"
+title: "Animals (PROBLEM: attachments)"
 date: 2020-07-09T21:20:28-04:00
 draft: false
 ---
