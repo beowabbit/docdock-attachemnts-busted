@@ -1,10 +1,10 @@
-baseURL = "/"
+baseURL = "http://localhost/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocDock Documentation"
-theme = "hugo-theme-docdock"
-themesdir = "../.."
+title = "DocDock Attachments Test Site"
+theme = "docdock"
+#themesdir = "../.."
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
