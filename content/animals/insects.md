@@ -7,3 +7,5 @@ draft: false
 Insects are arthropods, but not all arthropods are insects.
 
 This is a leaf node.
+
+{{% attachments /%}}

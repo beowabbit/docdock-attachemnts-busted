@@ -7,3 +7,5 @@ draft: false
 Animals are critters, from bugs to belugas.
 
 This is another branch bundle (with its source in _index.md).
+
+{{% attachments /%}}

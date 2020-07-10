@@ -7,3 +7,5 @@ draft: false
 Mammals is tetrapods, but not all tetrapods is mammals.  'Strewth!
 
 This is a leaf node.
+
+{{% attachments /%}}
